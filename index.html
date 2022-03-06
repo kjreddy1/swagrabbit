@@ -17,31 +17,12 @@ label {
 
 </style>
 
-
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
-<!--  If necessary, please modify the charset parameter to specify the        -->
-<!--  character set of your HTML page.                                        -->
-<!--  ----------------------------------------------------------------------  -->
-
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <FORM> element to your page.             -->
-<!--  ----------------------------------------------------------------------  -->
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type=hidden name="oid" value="00D5f000006NBwu">
 <input type=hidden name="retURL" value="https://kjreddy1.github.io/swagrabbit/thankyou.html">
-
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-<!--  these lines if you wish to test in debug mode.                          -->
-<!--  <input type="hidden" name="debug" value=1>                              -->
-<!--  <input type="hidden" name="debugEmail"                                  -->
-<!--  value="sharathksfdc+lite@gmail.com">                                    -->
-<!--  ----------------------------------------------------------------------  -->
 
 <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
@@ -51,9 +32,19 @@ label {
 
 <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+<label for="description">Description</label><textarea name="description"></textarea><br>
+
+
+
+<div style="display:none"> 
+<label for="lead_source" >Lead Source</label><select id="lead_source" name="lead_source" readonly="readonly"><option value="Web-Wix Form">Web-Wix Form</option>
+</select>
+<br>
+</div>
+
+
 
 <input type="submit" name="submit">
 
