@@ -1,99 +1,83 @@
 <style type="text/css">
-
-
- 
- 
-.wrap { max-width:420px; margin:10px auto;  font-family: 'Montserrat', Arial, Helvetica, sans-serif;}
- 
-div.wrap > p {
-  font-size:15px;  
-  line-height:25px;
- 
-}
-
-div.wrap > h1{
-  line-height:1.2em;
-  
-}
- 
-.form-control{
- 
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: #fff;
-  border:2px solid #ccc;
-  transition: all 0.3s;
-  padding: 10px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
-}
-
-.form-control:focus { border:2px solid #000; }
-
-textarea {
-  height: 100px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-
-  
-  .btn {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: #0e0f0f;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width:100%;
-  color:#fff;
- border-color:#124d77;
-  border-top-left-radius:3px;
-  border-top-right-radius:3px;
-  border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;
-  box-shadow:inset 0px 1px 0px 0px #54a3f7;
-  text-shadow:inset 0px 1px 0px #154682;
-  background:linear-gradient(#007dc1, #0061a7);
-}
-
-.btn:hover {
- background: linear-gradient(#0061a7, #007dc1);
-}
-
-
+   form { max-width:420px; margin:10px auto;  font-family: 'Montserrat', Arial, Helvetica, sans-serif;}
+   form > p {
+   font-size:15px;  
+   line-height:25px;
+   }
+   form > h1{
+   line-height:1.2em;
+   }
+   .form-control{
+   font-weight:500;
+   font-size: 18px;
+   border-radius: 5px;
+   line-height: 22px;
+   background-color: #fff;
+   border:2px solid #ccc;
+   transition: all 0.3s;
+   padding: 10px;
+   margin-bottom: 15px;
+   width:100%;
+   box-sizing: border-box;
+   outline:0;
+   }
+   .form-control:focus { border:2px solid #000; }
+   textarea {
+   height: 100px;
+   line-height: 150%;
+   resize:vertical;
+   }
+   .btn {
+   -webkit-border-radius: 5;
+   -moz-border-radius: 5;
+   border-radius: 5px;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 20px;
+   background: #0e0f0f;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   width:100%;
+   color:#fff;
+   border-color:#124d77;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+   border-bottom-left-radius:3px;
+   border-bottom-right-radius:3px;
+   box-shadow:inset 0px 1px 0px 0px #54a3f7;
+   text-shadow:inset 0px 1px 0px #154682;
+   background:linear-gradient(#007dc1, #0061a7);
+   }
+   .btn:hover {
+   background: linear-gradient(#0061a7, #007dc1);
+   }
 </style>
+
 
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
  
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+   <input type=hidden name="oid" value="00D5f000006NBwu">
+   <input type=hidden name="retURL" value="https://kjreddy1.github.io/swagrabbit/thankyou.html">
+   <h1>Experience Our<br>Print On-Demand Solution</h1>
+   <p><strong>How can we help you?</strong> Fill out this form to connect with our team to discuss your needs or to schedule a demo of our innovative, end-to-end personalization capabilities.
+   </p>
  
-<form  class="wrap">
- <h1>Experience Our<br>Print On-Demand Solution</h1>
- <p><strong>How can we help you?</strong> Fill out this form to connect with our team to discuss your needs or to schedule a demo of our innovative, end-to-end personalization capabilities.
- </p>
- <input type=hidden name="oid" value="00D5f000006NBwu">
-<input type=hidden name="retURL" value="https://kjreddy1.github.io/swagrabbit/thankyou.html">
-
-<input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="First Name"/><br>
-<input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text"  placeholder="Last Name"/><br>
- <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"  placeholder="Email"/><br>
-<input  class="form-control"id="company" maxlength="40" name="company" size="20" type="text"  placeholder="Company"/><br>
-<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="text"  placeholder="Phone"/><br>
-<textarea  class="form-control" cols="30" rows="3" name="description" placeholder="Description"></textarea><br>
-<input type="submit" name="submit" class="btn btn-primary">
-
-
-<div style="display:none"> 
-<label for="lead_source" >Lead Source</label><select id="lead_source" name="lead_source" readonly="readonly"><option value="Web-Wix Form">Web-Wix Form</option>
-</select>
-<br>
-</div>
+   <input type="hidden" name="debug" value=1>
+   <input type="hidden" name="debugEmail" value="ravali.kommareddy@gmail.com"> 
+   <input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="First Name"/><br>
+   <input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text"  placeholder="Last Name"/><br>
+   <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"  placeholder="Email"/><br>
+   <input  class="form-control"id="company" maxlength="40" name="company" size="20" type="text"  placeholder="Company"/><br>
+   <input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="text"  placeholder="Phone"/><br>
+   <textarea  class="form-control" cols="30" rows="5" name="description" placeholder="Description"></textarea>
+   <br>
+   <div style="display:none">
+      <label for="lead_source" >Lead Source</label>
+      <select id="lead_source" name="lead_source" readonly="readonly">
+         <option value="Web-Wix Form">Web-Wix Form</option>
+      </select>
+      <br>
+   </div>
+   <input type="submit" name="submit" class="btn btn-primary">
 </form>
- 
