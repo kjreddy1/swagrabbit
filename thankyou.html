@@ -1,14 +1,288 @@
-<style type="text/css">
-    #wrap{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  }
-</style>
-
-<div id="wrap">
-  <h2>Thank you for connecting with us! <br>
-We'll be in touch soon.</h2>
-</div>
+<!doctype html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width" />
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Thanks For Connecting With Us!</title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:400,700" rel="stylesheet">
+      <style>
+         /* -------------------------------------
+         GLOBAL RESETS
+         ------------------------------------- */
+         /*All the styling goes here*/
+         img {
+         border: none;
+         -ms-interpolation-mode: bicubic;
+         max-width: 100%;
+         }
+         body {
+         background-color: #dbdbdb;
+         font-family: 'Poppins', 'Helvetica', sans-serif;
+         -webkit-font-smoothing: antialiased;
+         font-size: 14px;
+         line-height: 28px;
+         letter-spacing: .5px;
+         margin: 0;
+         padding: 0;
+         -ms-text-size-adjust: 100%;
+         -webkit-text-size-adjust: 100%;
+         }
+         table {
+         border-collapse: separate;
+         mso-table-lspace: 0pt;
+         mso-table-rspace: 0pt;
+         width: 100%;
+         }
+         table td {
+         font-family: 'Poppins', 'Helvetica', sans-serif;
+         font-size: 15px;
+         line-height: 28px;
+         letter-spacing: .5px;
+         text-align: left;
+         /*color: #6F6F6F;*/
+         }
+         /* -------------------------------------
+         BODY & CONTAINER
+         ------------------------------------- */
+         .body {
+         background-color: #dbdbdb;
+         width: 100%;
+         
+         }
+         /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+         .container {
+         display: block;
+         Margin: 0 auto !important;
+         /* makes it centered */
+         max-width: 580px;
+         padding: 10px;
+         width: 580px;
+         }
+         /* This should also be a block element, so that it will fill 100% of the .container */
+         .content {
+         box-sizing: border-box;
+         display: block;
+         Margin: 0 auto;
+         max-width: 580px;
+         padding: 10px;
+         }
+         /* -------------------------------------
+         HEADER, FOOTER, MAIN
+         ------------------------------------- */
+         .main {
+         background: #ffffff;
+         border-radius: 3px;
+         width: 100%;
+         }
+         .wrapper {
+         box-sizing: border-box;
+         padding: 20px;
+         }
+         .content-block {
+         padding-bottom: 10px;
+         padding-top: 10px;
+         }
+       
+         /* -------------------------------------
+         TYPOGRAPHY
+         ------------------------------------- */
+         h1 {
+         font-family: 'Montserrat', 'Verdana', sans-serif;
+         font-size: 30px;
+         font-weight: bold;
+         line-height: 42px;
+         text-align: left;
+         color: #000000;
+         padding-bottom: 15px !important;
+         }
+         h2 {
+         font-family: 'Montserrat', 'Verdana', sans-serif;
+         font-size: 24px;
+         font-weight: bold;
+         line-height: 32px;     
+         color: #000000;
+         padding-bottom: 15px !important;
+         }
+         h3 {
+         font-family: 'Montserrat', 'Verdana', sans-serif;
+         font-size: 18px;
+         font-weight: bold;
+         line-height: 28px;
+         color: #000000;
+         padding-bottom: 15px !important;
+         }
+         p,
+         ul,
+         ol {
+         font-family: 'Poppins', 'Helvetica', sans-serif;
+         font-size: 14px;
+         font-weight: normal;
+         margin: 0;
+         margin-bottom: 15px;
+         }
+         p li,
+         ul li,
+         ol li {
+         list-style-position: inside;
+         margin-left: 5px;
+         }
+         a {
+         /*color: #39b54a;*/
+         text-decoration: none;
+         }
+         /* -------------------------------------
+         OTHER STYLES THAT MIGHT BE USEFUL
+         ------------------------------------- */
+         .last {
+         margin-bottom: 0;
+         }
+         .first {
+         margin-top: 0;
+         }
+         .align-center {
+         text-align: center;
+         }
+         .align-right {
+         text-align: right;
+         }
+         .align-left {
+         text-align: left;
+         }
+         .clear {
+         clear: both;
+         }
+         .mt0 {
+         margin-top: 0;
+         }
+         .mb0 {
+         margin-bottom: 0;
+         }
+         hr {
+         border: 0;
+         border-bottom: 1px solid #dbdbdb;
+         Margin: 20px 0;
+         }
+		 .bottom-hr{
+		 border-bottom:1px solid #6F6F6F;
+		 }
+         /* -------------------------------------
+         RESPONSIVE AND MOBILE FRIENDLY STYLES
+         ------------------------------------- */
+         @media only screen and (max-width: 620px) {
+         table[class=body] h1 {
+         font-size: 28px !important;
+         margin-bottom: 10px !important;
+         }
+         table[class=body] p,
+         table[class=body] ul,
+         table[class=body] ol,
+         table[class=body] td,
+         table[class=body] span,
+         table[class=body] a {
+         font-size: 16px !important;
+         }
+         table[class=body] .wrapper,
+         table[class=body] .article {
+         padding: 10px !important;
+         }
+         table[class=body] .content {
+         padding: 0 !important;
+         }
+         table[class=body] .container {
+         padding: 0 !important;
+         width: 100% !important;
+         }
+         table[class=body] .main {
+         border-left-width: 0 !important;
+         border-radius: 0 !important;
+         border-right-width: 0 !important;
+         }
+         table[class=body] .btn table {
+         width: 100% !important;
+         }
+         table[class=body] .btn a {
+         width: 100% !important;
+         }
+         table[class=body] .img-responsive {
+         height: auto !important;
+         max-width: 100% !important;
+         width: auto !important;
+         }
+         }
+         /* -------------------------------------
+         PRESERVE THESE STYLES IN THE HEAD
+         ------------------------------------- */
+         @media all {
+         .ExternalClass {
+         width: 100%;
+         }
+         .ExternalClass,
+         .ExternalClass p,
+         .ExternalClass span,
+         .ExternalClass font,
+         .ExternalClass td,
+         .ExternalClass div {
+         line-height: 100%;
+         }
+         }
+      </style>
+   </head>
+   <body class="">
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" >
+         <tr>
+            <td>&nbsp;</td>
+            <td class="container">
+               <div class="content" >
+                  <!-- START CENTERED WHITE CONTAINER -->
+                  <table role="presentation" class="main">
+                     <!-- START MAIN CONTENT AREA -->
+                     <tr>
+                        <td class="content-block">
+                           <a href="https://www.swagrabbit.com" target="_blank"><img src="https://swagrabbit3--c.documentforce.com/servlet/servlet.ImageServer?id=0155f000000eYmu&oid=00D5f000006NBwu&lastMod=1646699749000" alt="SwagRabbit" align="center" style="display:block;float:none;margin:0 auto;max-width:200px;outline:0;padding-top:1em"></a>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="wrapper">
+                           <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                 <td class="align-center">
+                                    <h2 class="bottom-hr">Thanks For Connecting With Us</h2>
+                                    <p>Our team will be in-touch soon to discuss your needs or schedule a demo of our innovative, end-to-end personalization capabilities.</p>
+                                    <p>Your SwagRabbit Team</p>
+                                 </td>
+                              </tr>
+                              <tr style="border-collapse:collapse;">
+                                 <td style="padding:0;Margin:0;position:relative;">
+                                    <div style="margin: 0 auto; width: 450px">
+                                       <img src="https://swagrabbit3--c.visualforce.com/resource/1646699292000/SwagRabbit_Email_Body" alt="me" style="width: 450px" />
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td class="content-block align-center">
+                                    <h3 class="bottom-hr">Personalized Products. Impressions That Last.</h3>
+                                 </td>
+                              </tr>
+							   <tr>
+                                 <td class="align-center">
+                                    <p><a href="mailto:info@swagrabbit.com" class="footer_email">info@swagrabbit.com</a></p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td class="content-block align-center">
+                                    <a href="https://www.linkedin.com/company/swagrabbit/" target="_blank" style="font-weight:bold"><img title="Email" src="https://swagrabbit3--c.documentforce.com/servlet/servlet.ImageServer?id=0155f000000eYnE&amp;oid=00D5f000006NBwu&amp;lastMod=1646701555000" alt="linkedin" width="32" height="32" style="display:inline-block;border:0;outline:none;text-decoration:none;"></a>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                     <!-- END MAIN CONTENT AREA -->
+                  </table>                 
+                  <!-- END CENTERED WHITE CONTAINER -->
+               </div>
+            </td>
+            <td>&nbsp;</td>
+         </tr>
+      </table>
+   </body>
+</html>
